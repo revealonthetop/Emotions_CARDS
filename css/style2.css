@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #faf8f5;
+    color: #333;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.content {
+    margin-top: 60px; /* 네비게이션 바가 고정될 때 페이지 내용이 네비게이션 바 아래에 나타나도록 보장 */
+    padding: 20px;
+}
+
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #faf8f5;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+
+  .workspace {
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .workspace-preview {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
