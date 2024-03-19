@@ -45,6 +45,8 @@ body{
   text-align: center;
   padding: 50px;
   background-color: #faf8f5;
+  display: flex;
+
 }
 
 .hero h1 {
