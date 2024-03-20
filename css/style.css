@@ -15,7 +15,7 @@ body{
 }
 .sticky-div1{
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: -1;
 }
 
@@ -43,7 +43,7 @@ body{
 .hero-text p{
   font-size: 30px;
   margin-bottom: 30px;
-  color: #666;
+  color: #1e1e1e;
   width: 100%;
 }
 
@@ -63,6 +63,7 @@ body{
   background-color: #333;
   padding: 10px 0;
   border-radius: 15px;
+  z-index: 99;
 }
 .navbar ul {
   list-style-type: none;
@@ -88,6 +89,7 @@ body{
   padding: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .workspace-introduce{
@@ -169,21 +171,7 @@ body{
   text-align: center;
   width: 40%;
 }
-.overlay::before,
-.overlay::after{
-  z-index: 999;
-  content: '';
-  position: absolute;
-  right: 0;
-  bottom: -40px;
-  height: 40px;
-  width: 40px;
-  background-color: #4070F4;
-}
-.overlay::after{
-  border-radius: 0 25px 0 0;
-  background-color: #FFF;
-}
+
 .card-image{
   position: relative;
   height: 250px;
