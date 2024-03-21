@@ -248,6 +248,13 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+  .sticky-div1{
+    display: none;
+    height: 0;
+  }
+  .sticky-div2{
+    padding-top: 0;
+  }
   .slide-content{
     margin: 0 10px;
   }
